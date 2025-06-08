@@ -1,6 +1,6 @@
 local HttpService = game:GetService("HttpService")
 
-_G.FileName = ""
+_G.FileName = "math.random"
 local FilePath = "LuminHub/settings/GrowAGarden/" .. _G.FileName .. ".txt"
 
 _G.WebhookFailToggle = false
