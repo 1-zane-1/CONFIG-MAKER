@@ -1,8 +1,7 @@
 local HttpService = game:GetService("HttpService")
 
 
-local FilePath = "LuminHub/settings/GrowAGarden/" .. _G.FileName .. ".txt"
-
+local FilePath = "LuminHub/settings/GrowAGarden/" .. tostring(_G.FileName) .. ".txt"
 
 local config = {
     objects = {
